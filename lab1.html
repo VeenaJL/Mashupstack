@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>LAB 1.1</title>
+ </head>
+<body>
+ <form action="form.html">
+ 	<label name ="Fname" value="name" >Name :</label>
+ 	<input type="text" name="Fname" placeholder="Enter your fullname" maxlength="25" size="25" required><br><br>
+	<label name ="email" value="test@example.com">Email :</label>
+ 	<input type="text" name="email" required autofocus><br><br>
+ 	 	<label name ="password" value="password">Password :</label>
+ 	<input type="password" name="pass" required><br><br>
+	<label name ="category" value="category">Categry :</label>		
+ 	<select>
+ 		<option>Freelancer</option>
+ 		<option>Student</option>
+ 		<option>Employee</option>
+ 	</select><br><br>
+ 	<label for="ed" value="date">Event date :</label>
+ 	<input type="date" name="ed" required><br><br>
+ 	<label for="tickets" value="tickets">Tickets :</label>
+    <input type="radio" id="ticket" name="ticket">
+    <label for="ticket1" value="ticket1">Ticket 1</label>
+    <input type="radio" id="ticket" name="ticket" checked>
+    <label for ="ticket2" value="ticket2">Ticket 2</label>
+    <input type="radio" id="ticket" name="ticket">
+    <label for="ticket3" value="ticket3">Ticket 3</label><br><br>
+     	<label for="payement" value="payment">Payment :</label>
+	<label for="payment" value="opay">Online Payment</label>
+    <input type="checkbox" id="payment" name="payment"><br><br>
+    <label for ="notes" value="notes">Notes :</label>
+    <textarea rows = "5" cols = "50" name = "notes" placeholder="Description"></textarea><br><br>
+    <input type = "submit" value = "submit"/>
+    
+ </form>
+</body>
+</html>
